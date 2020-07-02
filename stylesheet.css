@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
 a {
@@ -91,9 +91,8 @@ li {
 }
 
 
-
 .main {
-  padding: 50px 0;
+  width: 100%;
   background-color: darkblue;
   background-size: cover;
   height: 450px;
@@ -113,8 +112,8 @@ li {
 }
 
 .main-left h2 {
+  margin-bottom: 10px;
   color: white;
-  margin-bottoms: 10px;
 }
 
 .main-left p {
@@ -263,7 +262,6 @@ li {
     padding-left: 40px; 
 }
 
-
 /* Pengaturan style bagian Anggota Tim */
 .team-wrapper {
     padding-bottom: 20px;
@@ -274,7 +272,8 @@ li {
 
 .team-wrapper h2 {
     text-align: center;
-    font-size: 60px;
+    padding-top: 50px;
+    font-size: 30px;
 }
 /* Mengubah susunan foto anggota tim menjadi 1 baris */
 .team {
@@ -313,82 +312,85 @@ li {
 }
 
 /*Mengatur ukuran foto tiap personil*/
-img {
+.teams img {
     width: 150px;
     height: 200px;
 }
 
 
 .contact-form {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 100px;
+  margin-top: 200px;
+  text-align: center;
 }
-  
-/* Tambahkan CSS untuk tags <input> dan <textarea> */
-.contact-form input {
-    width: 400px;
-    height: 5px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
+
+.contact-form h3{
+  font-size: 30px;
 }
-  
-.contact-form textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
 }
-  
-/* Pengaturan style tombol Kirim */
+
 .contact-submit {
-    background-color: #dee7ec;
-    color: #889eab;
+  background-color: green;
+  padding: 15px 40px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 7px black;
 }
+
+.contact-submit:hover {
+  opacity: 1;
+}
+
+.contact-submit:active {
+  position: relative;
+  background-color: black;
+  top: 7px;
+  box-shadow: none;
+}
+
  
 /*==========================*/
 /*Pengaturan Style Footer*/
-.footer-section {
-    background: #0a183d;
-    padding: 100px 0 85px;
+.padding-luar {
+  width: 100%;
+  height: 220px;
+  background-size: cover; 
+  background-color: black;
+  color: white;
 }
 
-.footer-widget h2 {
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 30px;
+.kanan1 {
+  float: left;
+  padding-left: 130px;
+  padding-right: 130px;
+  text-align: justify; 
+} 
+
+.kanan2 {
+  float: left;
+  padding-left: 130px;
+  padding-right: 130px;
+  text-align: justify; 
 }
 
-a {
-    color: #6a7080;
-    text-decoration: none;
-    background-color: transparent;
-    font-size: 14px;
+.kanan3 {
+  float: left;
+  padding-left: 130px;
+  padding-right: 130px;
+  text-align: justify; 
 }
 
-.footer-widget ul {
-    list-style: none;
-}
-
-.copyright {
-    color: #505565;
-    font-size: 11px;
-    font-family: "Montserrat", sans-serif;
-}
-
-.kanan {
-    background-color: yellow;
-}
-
-.kiri {
-    background-color: red;
-}
-
-.inline-block li {
-    list-style-type: none;
+.cr {
+  text-align: center;
 }
