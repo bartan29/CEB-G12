@@ -118,3 +118,15 @@ a {
     font-size: 11px;
     font-family: "Montserrat", sans-serif;
 }
+
+.kanan {
+    background-color: yellow;
+}
+
+.kiri {
+    background-color: red;
+}
+
+.inline-block li {
+    list-style-type: none;
+}
