@@ -119,11 +119,11 @@ a {
     font-family: "Montserrat", sans-serif;
 }
 
-.inline-block kanan {
+.kanan {
     background-color: yellow;
 }
 
-.inline-block kiri {
+.kiri {
     background-color: red;
 }
 
