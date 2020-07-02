@@ -1,0 +1,120 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Pengaturan style bagian Anggota Tim */
+.team-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.team-wrapper h2 {
+    text-align: center;
+    font-size: 60px;
+}
+/* Mengubah susunan foto anggota tim menjadi 1 baris */
+.team {
+    float: left;
+    width:20%; /*Karena terdiri dari 5 orang, maka lebar antar foto anggota tim (100% : 5 orang) = 20%*/
+}
+
+.team-icon {
+    position: relative;
+}
+
+/*Memberikan efek hover pada foto tim, sehingga jika kursor diarahkan ke foto, warna foto akan berubah*/
+.team-icon:hover {
+    background-color:#bdc3c7;
+}
+
+/*Nama masing - masing anggota tim*/
+.team-icon p {
+    position: absolute;
+    top: 95%; /*Letak nama berada di 90% dari atas gambar*/
+    width: 100%;
+    color: #0a183d;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/*Nama kota asal masing - masing anggota tim*/
+.team-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px; /*jarak bagian atas nama kota asal dengan gambar*/
+    font-size: 15px;
+    color: #6a7080;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+/*Mengatur ukuran foto tiap personil*/
+img {
+    width: 150px;
+    height: 200px;
+}
+
+
+.contact-form {
+    padding-top: 200px;
+    text-align: center;
+}
+  
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+.contact-form input {
+    width: 400px;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+  
+.contact-form textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+  
+/* Pengaturan style tombol Kirim */
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+ 
+/*==========================*/
+/*Pengaturan Style Footer*/
+.footer-section {
+    background: #0a183d;
+    padding: 100px 0 85px;
+}
+
+.footer-widget h2 {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #6a7080;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.footer-widget ul {
+    list-style: none;
+}
+
+.copyright {
+    color: #505565;
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+}
